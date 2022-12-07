@@ -23,3 +23,10 @@ function binarySearch(array, element) {
 }
 
 console.log(binarySearch(arr, 8));
+
+const whatami=(x)=>{
+    if(x<2){
+        return x
+    }
+    return whatami(x-1)+ whatami(x-2)
+}
